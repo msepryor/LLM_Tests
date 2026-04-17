@@ -1,0 +1,16 @@
+{
+	"chatLanguageModelMistral":"dev.langchain4j.model.mistralai.MistralAiChatModel",
+	"chatLanguageModel":"dev.langchain4j.model.openai.OpenAiChatModel",
+	"modelVariant-Claude":"claude-sonnet-4-6",
+	"modelVariant-Gemini":"gemini-3.1-pro-preview",
+	"modelVariant-XAI":"grok-4.20-0309-non-reasoning",
+	"modelVariant-OPENAI":"gpt-5.4",
+	"modelVariant":"mistral-large-2512",
+	"model":"MISTRAL",
+	"systemPrompt": [
+		"Identify the center of the white circle in the provided image.\n",
+		"Use a coordinate system where the top-left pixel is (1,1) and the bottom-right pixel is ({width},{height}).\n",
+		"Provide the coordinates in the following JSON format: {\"x-position\": integer, \"y-position\": integer}.\n",
+		"Return only the JSON."
+	]
+}

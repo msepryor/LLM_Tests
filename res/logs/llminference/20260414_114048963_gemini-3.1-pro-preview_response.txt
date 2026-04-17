@@ -1,0 +1,31 @@
+{
+   "candidates": [{
+      "finishReason": "STOP",
+      "index": 0,
+      "content": {
+         "role": "model",
+         "parts": [{
+            "text": "```json\n{\"x-position\": 7, \"y-position\": 82}\n```",
+            "thoughtSignature": "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"
+         }]
+      }
+   }],
+   "modelVersion": "gemini-3.1-pro-preview",
+   "usageMetadata": {
+      "candidatesTokenCount": 22,
+      "promptTokensDetails": [
+         {
+            "modality": "IMAGE",
+            "tokenCount": 1089
+         },
+         {
+            "modality": "TEXT",
+            "tokenCount": 83
+         }
+      ],
+      "thoughtsTokenCount": 981,
+      "totalTokenCount": 2175,
+      "promptTokenCount": 1172
+   },
+   "responseId": "sRneafGTLOvi7M8PrNWXsQ8"
+}

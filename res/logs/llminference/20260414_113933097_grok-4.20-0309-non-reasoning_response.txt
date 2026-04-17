@@ -1,0 +1,18 @@
+{
+     "role": "assistant",
+     "stop_sequence": null,
+     "usage": {
+          "output_tokens": 14,
+          "cache_creation_input_tokens": 0,
+          "input_tokens": 208,
+          "cache_read_input_tokens": 192
+     },
+     "stop_reason": "end_turn",
+     "model": "grok-4.20-0309-non-reasoning",
+     "id": "4f5f2aae-d55a-92e6-af67-e1e84e01a969",
+     "type": "message",
+     "content": [{
+          "text": "{\"x-position\": 9, \"y-position\": 89}",
+          "type": "text"
+     }]
+}

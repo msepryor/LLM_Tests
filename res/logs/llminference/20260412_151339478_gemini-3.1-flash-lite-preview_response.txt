@@ -1,0 +1,30 @@
+{
+   "candidates": [{
+      "finishReason": "STOP",
+      "index": 0,
+      "content": {
+         "role": "model",
+         "parts": [{
+            "text": "{\"x-position\": 42, \"y-position\": 9}",
+            "thoughtSignature": "EjQKMgG+Pvb7mmJyGhWx6nUaJsq9QDCdW+DQNOMna1Hv0geZgsJpN/IgMK/DXIsOha9XpdJ6"
+         }]
+      }
+   }],
+   "modelVersion": "gemini-3.1-flash-lite-preview",
+   "usageMetadata": {
+      "candidatesTokenCount": 17,
+      "promptTokensDetails": [
+         {
+            "modality": "TEXT",
+            "tokenCount": 109
+         },
+         {
+            "modality": "IMAGE",
+            "tokenCount": 1089
+         }
+      ],
+      "totalTokenCount": 1215,
+      "promptTokenCount": 1198
+   },
+   "responseId": "k6jbaYzkF43k7M8PlYnv4QE"
+}

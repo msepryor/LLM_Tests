@@ -1,0 +1,26 @@
+{
+     "system": [{
+          "text": "You are an important component in a machine-learning pipeline.\nThe user will submit an image with one or more labelled markers on it.Please respond by estimating the x and y coordinates of the specified marker.The top-left of the image is (0,0) and the bottom-right of the image is (64,64).You must respond with a short json string of the following form:\n\t{x-position:[integer], y-position:[integer]}",
+          "type": "text"
+     }],
+     "max_tokens": 1024,
+     "temperature": 0.2,
+     "messages": [{
+          "role": "user",
+          "content": [
+               {
+                    "text": "Please estimate the coordinates of the white circle",
+                    "type": "text"
+               },
+               {
+                    "source": {
+                         "data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAMklEQVR4Xu3PoQ0AQAgEQfpvGuznHYpcMmNXbRUAAAAAAABx+vG3CAauxQ8AAAAAAGsDMeov0TpJJdwAAAAASUVORK5CYII=",
+                         "media_type": "image/png",
+                         "type": "base64"
+                    },
+                    "type": "image"
+               }
+          ]
+     }],
+     "model": "claude-sonnet-4-6"
+}

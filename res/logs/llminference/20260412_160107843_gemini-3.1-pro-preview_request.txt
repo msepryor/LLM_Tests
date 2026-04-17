@@ -1,0 +1,44 @@
+{
+   "contents": [
+      {
+         "role": "user",
+         "parts": [{"text": "Please estimate the coordinates of the white circle"}]
+      },
+      {
+         "role": "model",
+         "parts": [{"text": "```json\n{\"x-position\": 39, \"y-position\": 36}\n```"}]
+      },
+      {
+         "role": "user",
+         "parts": [{"text": "Please estimate the coordinates of the white circle"}]
+      },
+      {
+         "role": "model",
+         "parts": [{"text": "```json\n{\"x-position\": 49, \"y-position\": 40}\n```"}]
+      },
+      {
+         "role": "user",
+         "parts": [{"text": "Please estimate the coordinates of the white circle"}]
+      },
+      {
+         "role": "model",
+         "parts": [{"text": "```json\n{\"x-position\": 58, \"y-position\": 60}\n```"}]
+      },
+      {
+         "role": "user",
+         "parts": [
+            {"text": "Please estimate the coordinates of the white circle"},
+            {"text": ""},
+            {"inline_data": {
+               "data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAMUlEQVR4Xu3PsQ0AMAjAMP5/mq4IDqhA9popEQDnZNHbCgZ+Wz8AAAAAAAAAAAAAMDxa/C/ROFx0TQAAAABJRU5ErkJggg==",
+               "mime_type": "image/png"
+            }}
+         ]
+      }
+   ],
+   "generationConfig": {
+      "temperature": 0.2,
+      "maxOutputTokens": 1024
+   },
+   "system_instruction": {"parts": {"text": "You are an important component in a machine-learning pipeline.\nThe user will submit an image with one or more labelled markers on it.Please respond by estimating the x and y coordinates of the specified marker.The top-left of the image is (0,0) and the bottom-right of the image is (64,64).You must respond with a short json string of the following form:\n\t{x-position:[integer], y-position:[integer]}\n\nYou are an important component in a machine-learning pipeline.\nThe user will submit an image with one or more labelled markers on it.Please respond by estimating the x and y coordinates of the specified marker.The top-left of the image is (0,0) and the bottom-right of the image is (64,64).You must respond with a short json string of the following form:\n\t{x-position:[integer], y-position:[integer]}\n\nYou are an important component in a machine-learning pipeline.\nThe user will submit an image with one or more labelled markers on it.Please respond by estimating the x and y coordinates of the specified marker.The top-left of the image is (0,0) and the bottom-right of the image is (64,64).You must respond with a short json string of the following form:\n\t{x-position:[integer], y-position:[integer]}\n\nYou are an important component in a machine-learning pipeline.\nThe user will submit an image with one or more labelled markers on it.Please respond by estimating the x and y coordinates of the specified marker.The top-left of the image is (0,0) and the bottom-right of the image is (64,64).You must respond with a short json string of the following form:\n\t{x-position:[integer], y-position:[integer]}\n\n"}}
+}

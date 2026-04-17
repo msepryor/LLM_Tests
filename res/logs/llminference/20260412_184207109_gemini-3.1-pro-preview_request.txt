@@ -1,0 +1,18 @@
+{
+   "contents": [{
+      "role": "user",
+      "parts": [
+         {"text": "Please estimate the coordinates of the white circle"},
+         {},
+         {"inline_data": {
+            "data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAMklEQVR4Xu3PsQkAQAjAQPdf2m/FWniFuzZVIgAAZmTR2wkGfjs/AAAAAAAAAAAAsNkDiKMv0UNBMu8AAAAASUVORK5CYII=",
+            "mime_type": "image/png"
+         }}
+      ]
+   }],
+   "generationConfig": {
+      "temperature": 0.2,
+      "maxOutputTokens": 1024
+   },
+   "system_instruction": {"parts": {"text": "You are an important component in a machine-learning pipeline for astronomical data.\nThe user will submit an image with a black background and a white circle which shows the position of the brightest star.Please respond by estimating the x and y coordinates of the star.The top-left of the image is (1,1) and the bottom-right of the image is (128,128).You must respond with a short json string of the following form:\n\t{x-position:[integer], y-position:[integer]}\n\n"}}
+}

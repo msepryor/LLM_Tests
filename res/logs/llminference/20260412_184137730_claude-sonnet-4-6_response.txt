@@ -1,0 +1,25 @@
+{
+     "role": "assistant",
+     "stop_sequence": null,
+     "usage": {
+          "cache_creation": {
+               "ephemeral_1h_input_tokens": 0,
+               "ephemeral_5m_input_tokens": 0
+          },
+          "output_tokens": 45,
+          "service_tier": "standard",
+          "cache_creation_input_tokens": 0,
+          "input_tokens": 137,
+          "cache_read_input_tokens": 0,
+          "inference_geo": "global"
+     },
+     "stop_reason": "end_turn",
+     "model": "claude-sonnet-4-6",
+     "stop_details": null,
+     "id": "msg_011M1x76oWLG8X5rB2pfvgAR",
+     "type": "message",
+     "content": [{
+          "text": "I can see a white circle in the image. It appears to be located in the lower-left area of the image.\n\n{\"x-position\": 42, \"y-position\": 90}",
+          "type": "text"
+     }]
+}

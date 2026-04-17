@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": 400,
+    "message": "* GenerateContentRequest.contents[0].parts[1].data: required oneof field 'data' must have one initialized field\n",
+    "status": "INVALID_ARGUMENT"
+  }
+}

@@ -1,0 +1,25 @@
+{
+     "max_completion_tokens": 1024,
+     "temperature": 0.2,
+     "messages": [
+          {
+               "role": "developer",
+               "content": "You are an important component in a machine-learning pipeline for astronomical data.\nThe user will submit an image with a black background and a white circle which shows the position of the brightest star.Please respond by estimating the x and y coordinates of the star.The top-left of the image is (0,0) and the bottom-right of the image is (64,64).You must respond with a short json string of the following form:\n\t{x-position:[integer], y-position:[integer]}"
+          },
+          {
+               "role": "user",
+               "content": "Please estimate the coordinates of the white circle"
+          },
+          {
+               "role": "user",
+               "content": [{
+                    "image_url": {
+                         "detail": "auto",
+                         "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAMklEQVR4Xu3PoQ0AQAjAQPZfmrcEgf1A7mxVIwAAAAAAAAAAAACAG7LobQUDv60fYPIAuYIv0V08wmkAAAAASUVORK5CYII="
+                    },
+                    "type": "image_url"
+               }]
+          }
+     ],
+     "model": "gpt-5.4"
+}

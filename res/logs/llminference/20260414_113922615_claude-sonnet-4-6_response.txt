@@ -1,0 +1,25 @@
+{
+     "role": "assistant",
+     "stop_sequence": null,
+     "usage": {
+          "cache_creation": {
+               "ephemeral_1h_input_tokens": 0,
+               "ephemeral_5m_input_tokens": 0
+          },
+          "output_tokens": 19,
+          "service_tier": "standard",
+          "cache_creation_input_tokens": 0,
+          "input_tokens": 108,
+          "cache_read_input_tokens": 0,
+          "inference_geo": "global"
+     },
+     "stop_reason": "end_turn",
+     "model": "claude-sonnet-4-6",
+     "stop_details": null,
+     "id": "msg_01T7rtATvQzurepkPgHnMbuH",
+     "type": "message",
+     "content": [{
+          "text": "{\"x-position\": 18, \"y-position\": 67}",
+          "type": "text"
+     }]
+}

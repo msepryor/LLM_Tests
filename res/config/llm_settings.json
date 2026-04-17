@@ -1,0 +1,80 @@
+{
+	"models": [
+		{
+			"model": {
+				"name" : "CLAUDE",
+				"class" : "com.internationalpresence.generative.Claude",
+				"endpoint" : "https://api.anthropic.com/v1/messages",
+				"model_versions" : [
+					{"version" : "claude-3-7-sonnet-20250219"},
+					{"version" : "claude-3-5-haiku-20241022"},
+					{"version" : "claude-3-opus-20240229"},
+					{"version" : "claude-3.5-sonnet-20241022"},
+					{"version" : "claude-3.5-sonnet-20240620"},	
+					{"version" : "claude-3-haiku-20240307"},									
+				],
+				"logo_image" : "claude-ai-icon.png",
+				"api_version" : "2023-06-01"
+			}
+		},
+		{
+			"model": {
+				"name" : "OPENAI",
+				"class" : "com.internationalpresence.generative.OpenAI",				
+				"endpoint" : "https://api.openai.com/v1/chat/completions",
+				"model_versions" : [
+					{"version" : "gpt-4.1"},
+					{"version" : "gpt-4o"},					
+					{"version" : "o3-mini"},
+					{"version" : "o1-pro"},					
+					{"version" : "o1"},
+					{"version" : "o1-mini"},					
+					{"version" : "gpt-4o"},
+					{"version" : "gpt-4.1 mini"},	
+					{"version" : "gpt-4.1 nano"}
+				],
+				"logo_image" : "chatgpt-icon.png",
+				"api_version" : ""
+			}
+		},
+		{
+			"model": {
+				"name" : "XAI",
+				"class" : "com.internationalpresence.generative.Grok",				
+				"endpoint" : "https://api.x.ai/v1/messages",
+				"model_versions" : [
+					{"version" : "grok-2-latest"}
+				],
+				"logo_image" : "grok-icon.png",
+				"api_version" : ""
+			}
+		},
+		{
+			"model": {
+				"name" : "GEMINI",
+				"class" : "com.internationalpresence.generative.Gemini",
+				"endpoint" : "https://generativelanguage.googleapis.com/v1beta/models/",
+				"model_versions" : [
+					{"version" : "gemini-2.0-flash"},
+					{"version" : "gemini-2.5-pro-exp-03-25"}
+				],
+				"logo_image" : "google-gemini-icon.png",
+				"api_version" : ""
+			}
+		},
+		{
+			"model": {
+				"name" : "MISTRAL",
+				"class" : "com.internationalpresence.generative.Mistral",
+				"endpoint" : "https://api.mistral.ai/v1/chat/completions",
+				"model_versions" : [
+					{"version" : "codestral-latest"},
+					{"version" : "mistral-large-latest"},
+					
+				],
+				"logo_image" : "mistral-ai-icon.png",
+				"api_version" : ""
+			}
+		}				
+	]
+}

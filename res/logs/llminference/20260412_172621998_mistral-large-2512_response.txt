@@ -1,0 +1,21 @@
+{
+     "created": 1776011181,
+     "usage": {
+          "completion_tokens": 19,
+          "prompt_tokens": 115,
+          "prompt_tokens_details": {"cached_tokens": 0},
+          "total_tokens": 134
+     },
+     "model": "mistral-large-2512",
+     "id": "b5a1d6f41d924d62bd82391d92164ba6",
+     "choices": [{
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+               "role": "assistant",
+               "tool_calls": null,
+               "content": "```json\n{\"x-position\":32, \"y-position\":32}\n```"
+          }
+     }],
+     "object": "chat.completion"
+}

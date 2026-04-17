@@ -1,0 +1,31 @@
+{
+   "candidates": [{
+      "finishReason": "STOP",
+      "index": 0,
+      "content": {
+         "role": "model",
+         "parts": [{
+            "text": "```json\n{\"x-position\": 27, \"y-position\": 112}\n```",
+            "thoughtSignature": "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"
+         }]
+      }
+   }],
+   "modelVersion": "gemini-3.1-pro-preview",
+   "usageMetadata": {
+      "candidatesTokenCount": 24,
+      "promptTokensDetails": [
+         {
+            "modality": "IMAGE",
+            "tokenCount": 1089
+         },
+         {
+            "modality": "TEXT",
+            "tokenCount": 85
+         }
+      ],
+      "thoughtsTokenCount": 980,
+      "totalTokenCount": 2178,
+      "promptTokenCount": 1174
+   },
+   "responseId": "YhzeafnePPGbkdUP_JT2iAg"
+}

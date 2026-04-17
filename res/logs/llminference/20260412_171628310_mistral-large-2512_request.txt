@@ -1,0 +1,21 @@
+{
+     "safe_prompt": "false",
+     "max_tokens": 1024,
+     "messages": [
+          {
+               "role": "system",
+               "content": "You are an important component in a machine-learning pipeline for astronomical data.\nThe user will submit an image with a black background and a white circle which shows the position of the brightest star.Please respond by estimating the x and y coordinates of the star.The top-left of the image is (0,0) and the bottom-right of the image is (64,64).You must respond with a short json string of the following form:\n\t{x-position:[integer], y-position:[integer]}"
+          },
+          {
+               "role": "user",
+               "content": "Please estimate the coordinates of the white circle"
+          },
+          {
+               "role": "user",
+               "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAMklEQVR4Xu3PsQkAQAjAQPdf2m/FWniFuzZVIgAAAAAAAAAAAICFsujtBAO/nR8AYNgDClcv0RFNtuwAAAAASUVORK5CYII=",
+               "type": "image_url"
+          }
+     ],
+     "model": "mistral-large-2512",
+     "n": 1
+}

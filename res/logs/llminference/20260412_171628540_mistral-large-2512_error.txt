@@ -1,0 +1,42 @@
+{"detail": [
+     {
+          "msg": "Field required",
+          "loc": [
+               "body",
+               "messages",
+               2,
+               "user",
+               "content"
+          ],
+          "input": {
+               "role": "user",
+               "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAMUlEQVR4Xu3PsQkAAAjAMP9/WlfxAEVI1k6NAAAAAAAAAACAE9nM9oKBa+8HAABgVQGhQS/ROFo9FwAAAABJRU5ErkJggg==",
+               "type": "image_url"
+          },
+          "type": "missing"
+     },
+     {
+          "msg": "Extra inputs are not permitted",
+          "loc": [
+               "body",
+               "messages",
+               2,
+               "user",
+               "image_url"
+          ],
+          "input": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAMUlEQVR4Xu3PsQkAAAjAMP9/WlfxAEVI1k6NAAAAAAAAAACAE9nM9oKBa+8HAABgVQGhQS/ROFo9FwAAAABJRU5ErkJggg==",
+          "type": "extra_forbidden"
+     },
+     {
+          "msg": "Extra inputs are not permitted",
+          "loc": [
+               "body",
+               "messages",
+               2,
+               "user",
+               "type"
+          ],
+          "input": "image_url",
+          "type": "extra_forbidden"
+     }
+]}

@@ -3,7 +3,7 @@
 		{
 			"model": {
 				"name" : "CLAUDE",
-				"class" : "com.internationalpresence.generative.Claude",
+				"class" : "com.matt.llminterfaces.Claude",
 				"endpoint" : "https://api.anthropic.com/v1/messages",
 				"model_versions" : [
 					{"version" : "claude-3-7-sonnet-20250219"},
@@ -20,7 +20,7 @@
 		{
 			"model": {
 				"name" : "OPENAI",
-				"class" : "com.internationalpresence.generative.OpenAI",				
+				"class" : "com.matt.llminterfaces.OpenAI",				
 				"endpoint" : "https://api.openai.com/v1/chat/completions",
 				"model_versions" : [
 					{"version" : "gpt-4.1"},
@@ -40,7 +40,7 @@
 		{
 			"model": {
 				"name" : "XAI",
-				"class" : "com.internationalpresence.generative.Grok",				
+				"class" : "com.matt.llminterfaces.Grok",				
 				"endpoint" : "https://api.x.ai/v1/messages",
 				"model_versions" : [
 					{"version" : "grok-2-latest"}
@@ -52,7 +52,7 @@
 		{
 			"model": {
 				"name" : "GEMINI",
-				"class" : "com.internationalpresence.generative.Gemini",
+				"class" : "com.matt.llminterfaces.Gemini",
 				"endpoint" : "https://generativelanguage.googleapis.com/v1beta/models/",
 				"model_versions" : [
 					{"version" : "gemini-2.0-flash"},
@@ -65,7 +65,7 @@
 		{
 			"model": {
 				"name" : "MISTRAL",
-				"class" : "com.internationalpresence.generative.Mistral",
+				"class" : "com.matt.llminterfaces.Mistral",
 				"endpoint" : "https://api.mistral.ai/v1/chat/completions",
 				"model_versions" : [
 					{"version" : "codestral-latest"},

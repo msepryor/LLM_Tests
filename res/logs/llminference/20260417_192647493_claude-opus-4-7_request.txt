@@ -1,0 +1,25 @@
+{
+     "system": [{
+          "text": "Identify the center of the white circle in the provided image.\nUse a coordinate system where the top-left pixel is (1,1) and the bottom-right pixel is (128,128).\nProvide the coordinates in the following JSON format: {\"x-position\": integer, \"y-position\": integer}.\nReturn only the JSON.",
+          "type": "text"
+     }],
+     "max_tokens": 1024,
+     "messages": [{
+          "role": "user",
+          "content": [
+               {
+                    "text": "Please estimate the coordinates of the white circle",
+                    "type": "text"
+               },
+               {
+                    "source": {
+                         "data": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAXElEQVR4Xu3RsQkAMAwDQe+/dFLHrQkCc9eq01cBAAAAAAAAAAAAAAAAAAAAAAAAAADAGufVZ34TIKm9L0CAAGECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMHYBl95Ns8eIw50AAAAASUVORK5CYII=",
+                         "media_type": "image/png",
+                         "type": "base64"
+                    },
+                    "type": "image"
+               }
+          ]
+     }],
+     "model": "claude-opus-4-7"
+}

@@ -31,22 +31,12 @@ public class APIKey {
 	}
 	
 	private static String retrieveInternalAPIKey (Model purpose) throws NoKeyAvailableException {
-		switch (purpose) {
-		case CLAUDE:
-			return System.getenv("CLAUDE_API_KEY");
-		case MISTRAL:
-			return System.getenv("MISTRAL_API_KEY");
-		case OPENAI:
-			return System.getenv("OPENAI_API_KEY");
-		case GEMINI:
-			return System.getenv("GEMINI_API_KEY");
-		case XAI:
-			return System.getenv("XAI_API_KEY");
-		default:
-			throw new NoKeyAvailableException ("No API Key could be obtained for the operation. Please consult Presence support:\n\nsupport@presencebpm.com");
+		String env_key = purpose.name()+"_API_KEY";
+		if (System.getenv(env_key) != null) {
+			return System.getenv(env_key);
+		} else if (System.getProperty(env_key) != null) {
+			return System.getProperty(env_key);
 		}
+		throw new NoKeyAvailableException ("No API Key could be obtained for the operation.");
 	}
-	
-
-
 }

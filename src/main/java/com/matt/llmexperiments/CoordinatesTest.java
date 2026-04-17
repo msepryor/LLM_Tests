@@ -208,9 +208,9 @@ public class CoordinatesTest extends Agent {
 	 * @throws Exception if an unrecoverable error occurs during execution
 	 */
 	public static void main(String[] args) throws Exception {
-
+		
 		Model [] models = {Model.CLAUDE, Model.XAI, Model.MISTRAL, Model.OPENAI, Model.GEMINI};
-		String [] variants = {"claude-sonnet-4-6","grok-4.20-0309-non-reasoning","mistral-large-2512","gpt-5.4","gemini-3.1-pro-preview"};
+		String [] variants = {"claude-opus-4-7"};
 		int [] sizes = {64, 72, 96, 128};
 		for (int i = 0; i < models.length; i++) {
 			for (int s : sizes) {

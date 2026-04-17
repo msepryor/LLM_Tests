@@ -144,7 +144,7 @@ public class Claude extends LLMModel {
 		JSONObject json = new JSONObject();
 		json.put("model", getModelName());
 		json.put("max_tokens", maxTokens);
-		json.put("temperature", temperature);
+		//.put("temperature", temperature); // they deprecated this!
 		JSONArray systemPrompts = new JSONArray();
 		for (SystemPrompt p : getPromptItems()) {
 			JSONObject promptObj = new JSONObject();
